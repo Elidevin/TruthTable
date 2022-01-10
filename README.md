@@ -91,3 +91,25 @@
 `(x * y) & s` = `!(x * y) < s`
 
 `((x * y) & s) ∨ ((x * y) > s)` = `(x * y) ⊻ s`
+
+# Boolean Algebra
+## Commutative Laws
+`x & y` = `y & x`
+
+`x ∨ y` = `y ∨ x`
+
+## Associative Laws
+`x & (y & z)` = `(x & y) & z`
+
+`x ∨ (y ∨ z)` = `(x ∨ y) ∨ z`
+
+## Distributive Laws
+`(x ∨ y) & (x ∨ z)` = `x ∨ (y & z)`
+
+`(x & y) ∨ (x & z)` = `x & (y ∨ z)`
+
+## De Morgan Laws
+`!(x & y)` = `!x ∨ !y`
+
+`!(x ∨ y)` = `!x & !y`
+
